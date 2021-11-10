@@ -4,23 +4,20 @@ using namespace std;
 
 int main()
 {
-    bool gata = 1;
 
     int n;
     cin >> n;
     int v[n];
-
-    int k = 1;
 
     for (int i = 0; i < n; i++)
     {
         cin >> v[i];
     }
 
+    bool gata = 1;
+    int k = 1;
     while (gata != 0)
     {
-        gata = 1;
-
         for (int i = 0; i < n - k; i++)
         {
             if (v[i] > v[i + 1])
