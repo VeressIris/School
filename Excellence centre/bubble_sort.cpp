@@ -14,19 +14,21 @@ int main()
         cin >> v[i];
     }
 
-    bool gata = 1;
+    bool gata = false;
     int k = 1;
-    while (gata != 0)
+    while (gata != true)
     {
+        gata = true;
         for (int i = 0; i < n - k; i++)
         {
             if (v[i] > v[i + 1])
             {
                 swap(v[i], v[i + 1]);
-                gata = 0;
+                gata = false;
             }
         }
         k++;
+       
     }
 
     for (int i = 0; i < n; i++)
