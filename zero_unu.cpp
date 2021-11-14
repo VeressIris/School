@@ -1,3 +1,5 @@
+//Se dă un număr natural n. Să se verifice dacă n conține cel puțin o cifră de 1, cel puțin o cifră 0 și nu conține alte cifre.
+
 #include <iostream>
 
 using namespace std;
