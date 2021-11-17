@@ -1,0 +1,32 @@
+#include <iostream>
+#include "functii.cpp" //functie nr prim
+
+using namespace std;
+ 
+int main () {
+    int v[200] = {0};
+    int n,k=0;
+    cin >> n;
+    for (int i=0;i<n;i++)
+        cin>>v[i];
+    for (int i=0;i<n;i++)
+        if (e_prim(v[i]))
+        {
+            for (int j = i + 1; j <=n-1; j++)
+                v[j-1]=v[j];
+            n=n-1;
+        }
+ 
+ 
+    for (int i=0;i<n;i++)
+        if (v[i]%2==1)
+            {
+                for (int j = n-1; j>i; j--)
+                    v[j+1]=v[j];
+                v[i+1]=v[i]*2;
+                n++;
+            }
+    for (int i=0;i<n;i++)
+        cout<<v[i] << " ";
+    return 0;
+}

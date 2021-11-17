@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1635587554 source:c:\users\iris\documents\info\#centru de excelenta\functii\descompunerea\main.cpp
+	<iostream>
+	"functie prim.cpp"
+
+1635587627 c:\users\iris\documents\info\#centru de excelenta\functii\descompunerea\functie prim.cpp
+	<iostream>
+
