@@ -8,7 +8,7 @@ int main ()
     int x;
     cin >> x;
 
-    int ux;
+    int uc;
     int k = 0;
     int nr = 0;
 
