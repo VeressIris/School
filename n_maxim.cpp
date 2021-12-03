@@ -1,3 +1,5 @@
+//Se dau n numere întregi. Calculaţi cel mai mare dintre cele n numere date.
+
 #include <iostream>
 
 using namespace std;
