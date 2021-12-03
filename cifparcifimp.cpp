@@ -1,3 +1,5 @@
+//Se dau n numere naturale. Determinaţi câte cifre pare şi câte cifre impare se află în total în cele n numere.
+
 #include <iostream>
 
 using namespace std;
