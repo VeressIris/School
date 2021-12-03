@@ -1,3 +1,5 @@
+//Se citesc numere de la tastatură până la apariția lui zero. Să se determine cea mai mare valoare citită.
+
 #include <iostream>
 
 using namespace std;
