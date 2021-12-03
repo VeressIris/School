@@ -1,3 +1,5 @@
+//Se citește n număr natural. Calculați suma tuturor numerelor naturale mai mici sau egale cu n.
+
 #include <iostream>
 
 using namespace std;
