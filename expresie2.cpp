@@ -1,3 +1,5 @@
+//Să se scrie un program care citește numărul natural n și determină suma S=1*2+2*3+3*4+...+n*(n+1).
+
 #include <iostream>
 
 using namespace std;
