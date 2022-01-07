@@ -11,6 +11,7 @@ int main()
 
     int numar;
     cin >> numar;
+    
     int CMPrim = numar;
 
     for (int i = 2; i <= n; i++)
@@ -21,6 +22,7 @@ int main()
             CMPrim = numar;
         }
     }
+    
     cout << CMPrim;
   
     return 0;
