@@ -24,6 +24,7 @@ int main()
         if (sum % i == 0)
         {
             prim = 0;
+            break;
         }
     }
 
