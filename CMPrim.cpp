@@ -1,6 +1,7 @@
 //se citesc n nr calculati cel mai mare nr prim citit
 
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -17,11 +18,12 @@ int main()
         cin >> numar;
 
         prim = 1;
-        for (int j = 2; j < numar; j++)
+        for (int j = 2; j < sqrt(numar); j++)
         {
             if (numar % j == 0)
             {
                 prim = 0;
+                break;
             }
         }
 
