@@ -10,20 +10,31 @@ int main()
     cin >> n;
 
     int numar;
-    cin >> numar;
-    
-    int CMPrim = numar;
-
-    for (int i = 2; i <= n; i++)
+    int CMPrim = 0;
+    int prim;
+    for (int i = 1; i <= n; i++)
     {
         cin >> numar;
-        if (CMPrim < numar)
+
+        prim = 1;
+        for (int j = 2; j < numar; j++)
         {
-            CMPrim = numar;
+            if (numar % j == 0)
+            {
+                prim = 0;
+            }
+        }
+
+        if (prim == 1)
+        {
+            if (numar > CMPrim)
+            {
+                CMPrim = numar;
+            }
         }
     }
-    
+
     cout << CMPrim;
-  
+
     return 0;
 }
