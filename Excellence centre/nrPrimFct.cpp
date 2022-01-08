@@ -17,7 +17,7 @@ int prim(int n)
         return 0;
     }
 
-    for (int d = 3; d * d <= n; d++)
+    for (int d = 3; d * d <= n; d += 2)
     {
         if (n % d == 0)
         {
