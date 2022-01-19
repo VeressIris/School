@@ -12,12 +12,12 @@ int main()
 
     int numar;
     int maxim = INT_MIN;
-
     bool prim = true;
 
     for (int i = 1; i <= n; i++)
     {
         cin >> numar;
+        prim = true;
 
         for (int j = 2; j * j <= numar; j++)
         {
@@ -32,7 +32,6 @@ int main()
         {
             maxim = numar;
         }
-        cout << "maxim: " << maxim << endl;
     }
 
     cout << maxim;
